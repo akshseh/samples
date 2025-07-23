@@ -30,10 +30,7 @@ import os
 from ddgs import DDGS
 from ddgs.exceptions import DDGSException, RatelimitException
 from strands import Agent, tool
-from strands.models import bedrock
 from strands_tools import http_request, mem0_memory
-
-bedrock.DEFAULT_BEDROCK_MODEL_ID = "us.anthropic.claude-3-7-sonnet-20250219-v1:0"
 
 # Set up environment variables for AWS credentials and OpenSearch
 
